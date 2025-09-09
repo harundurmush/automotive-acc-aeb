@@ -53,8 +53,8 @@ run('scripts/configure_unreal_blocks.m');  % align sample times & initial poses
 - **Scopes open automatically:** Scope_Speeds, Scope_RelDistance, Scope_AEB, Scope_TTC.
 - **In Unreal:** add Simulation 3D Scene Configuration + two Simulation 3D Vehicle with Ground Following blocks.
 - **Connect:**
-- Unreal_Bridge/EgoX_scalar -> EgoVehicle/X
-- Unreal_Bridge/LeadX_scalar -> LeadVehicle/X
+   - Unreal_Bridge/EgoX_scalar -> EgoVehicle/X
+   - Unreal_Bridge/LeadX_scalar -> LeadVehicle/X
 - Leave Y/Yaw (and rotations) at zero constants for a simple 1-lane longitudinal demo.
 
 ---
